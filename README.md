@@ -18,13 +18,13 @@ To get the backend server up and running, please follow these steps:
     npm install
     ```
 
-3. In the backend directory, you'll find an `db.js` file, replace `//YourMongoDBURLHere` with your MongoDB connection URL.
+3. In the backend directory, you'll find an `db.js` file, replace `MONGO_LINK` with your MongoDB connection URL.
  
     ```plaintext
     MONGODB_URL=//YourMongoDBURLHere
     ```
 
-4. In the backend directory, you'll also find an `config.js` file, Replace `//YourSecretKeyHere` with your chosen secret key for JWT (JSON Web Tokens).
+4. In the backend directory, you'll also find an `config.js` file, Replace `jwt_secret` with your chosen secret key for JWT (JSON Web Tokens).
 
     ```plaintext
     JWT_SECRET=//YourSecretKeyHere
